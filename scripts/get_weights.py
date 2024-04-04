@@ -58,7 +58,7 @@ def get_urls(sd_version, weight_bits):
     safetensors_v1_5 = {
         "vae": f"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/{branch}/vae/diffusion_pytorch_model.bin",
         "unet": f"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/{branch}/unet/diffusion_pytorch_model.bin",
-        "pytorch_model": f"https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin"
+        "pytorch_model": "https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin"
     }
     safetensors_v2_1 = {
         "vae_v2.1": f"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/{branch}/vae/diffusion_pytorch_model.bin",
